@@ -1,4 +1,5 @@
-import { useState, useRef, DragEvent } from 'react'
+import { useState, useRef } from 'react'
+import type { DragEvent } from 'react'
 import { Upload, X } from 'lucide-react'
 import { toast } from 'sonner'
 import { validateImageFile, resizeImage } from '../lib/imageUtils'
